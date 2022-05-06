@@ -2,7 +2,7 @@
 
 ## Initial setup
 
-1. Add a `.env` file (in the root of the project) that contains the PRIVATE_KEY of the wallet that will be used to deploy the contracts
+1. Add a `.env` file (in the hardhat/truffle folder of the project) that contains the PRIVATE_KEY of the wallet that will be used to deploy the contracts
 
 ```
 PRIVATE_KEY = XXXXXXXXXX
