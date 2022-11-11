@@ -1,2 +1,6 @@
 Hardhat/.env
+Hardhat/node_modules
+Hardhat/cache
+Hardhat/artifacts
 Truffle/.env
+Truffle/build

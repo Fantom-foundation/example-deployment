@@ -1,7 +1,9 @@
 require('dotenv').config();
 require('@nomiclabs/hardhat-waffle');
+require("@nomiclabs/hardhat-etherscan");
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const API_KEY = process.env.API_KEY;
 
 module.exports = {
   solidity: '0.8.4',
@@ -27,6 +29,11 @@ module.exports = {
     },
     localhost: {
       url: `http://127.0.0.1:8545`
+    }
+  },
+  etherscan: {
+    apiKey: {
+      ftmTestnet: API_KEY
     }
   }
 };

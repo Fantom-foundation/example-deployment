@@ -2,10 +2,11 @@
 
 ## Initial setup
 
-1. Add a `.env` file (in the hardhat/truffle folder of the project) that contains the PRIVATE_KEY of the wallet that will be used to deploy the contracts
+1. Add a `.env` file (in the hardhat/truffle folder of the project) that contains the PRIVATE_KEY of the wallet that will be used to deploy the contracts and API_KEY (if you want to verify using hardhat-etherscan)
 
 ```
 PRIVATE_KEY = XXXXXXXXXX
+API_KEY = XXXXXXX
 ```
 
 2. Install `dotenv` to allow the config files to read PRIVATE_KEY from `.env` file
