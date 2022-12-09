@@ -6,7 +6,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const API_KEY = process.env.API_KEY;
 
 module.exports = {
-  solidity: '0.8.4',
+  solidity: '0.8.17',
   settings: {
     optimizer: {
       enabled: true,
@@ -33,7 +33,8 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      ftmTestnet: API_KEY
+      ftmTestnet: API_KEY,
+      opera: API_KEY
     }
   }
 };
