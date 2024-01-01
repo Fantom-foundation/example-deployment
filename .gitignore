@@ -1,4 +1,4 @@
-Hardhat/.env
-Hardhat/node_modules
-Hardhat/cache
-Hardhat/artifacts
+.env
+node_modules
+cache
+artifacts
