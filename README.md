@@ -2,7 +2,7 @@
 
 ## Initial setup
 
-1. Add a `.env` file (in the hardhat/truffle folder of the project) that contains the PRIVATE_KEY of the wallet that will be used to deploy the contracts and API_KEY (if you want to verify using hardhat-etherscan)
+1. Add a `.env` file that contains the PRIVATE_KEY of the wallet that will be used to deploy the contracts and API_KEY (if you want to verify using hardhat-etherscan)
 
 ```
 PRIVATE_KEY = XXXXXXXXXX
@@ -39,27 +39,3 @@ npx hardhat run --network testnet scripts/sample-script.js
 4. You should see the deployed contract address
 <img width="452" alt="4" src="https://user-images.githubusercontent.com/38925737/157434102-43fdaa77-30a7-4b0e-9b6e-54eb7d055c2b.png">
 
-
-## Truffle
-
-1. Create a deployment script
-<img width="965" alt="2" src="https://user-images.githubusercontent.com/38925737/157433811-ac1c626b-b433-42bc-807d-8fca4b9c000c.png">
-
-2. Update the `truffle-config.js` file with these networks
-<img width="857" alt="3" src="https://user-images.githubusercontent.com/38925737/157433998-407425a0-d2c6-4127-b869-55a77d5e4438.png">
-
-3. Run the following command to deploy the contract
-
-#### Mainnet
-```
-truffle migrate --network opera_mainnet
-```
-
-
-#### Testnet
-```
-truffle migrate --network opera_testnet
-```
-
-4. You should see the deployed contract address
-<img width="713" alt="4" src="https://user-images.githubusercontent.com/38925737/157434205-49328fff-376d-494e-a2db-9e16c0dfd7b9.png">
